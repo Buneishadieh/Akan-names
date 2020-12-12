@@ -1,21 +1,21 @@
 # Name Generator Application
-#### {This is project called NAME GENERATOR ,which uses Akan names   derived from Ghanian culture where children are given their first name as a 'day name' which corresponds to the day in the week they were born, 12/12/2020.
+#### This is project called NAME GENERATOR ,which uses Akan names   derived from Ghanian culture where children are given their first name as a 'day name' which corresponds to the day in the week they were born, 12/12/2020.
 #### By **Bunei Shadrack**
 ## Description
 This is a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.
 ## Setup/Installation Requirements
-.Launch your browser
-.on your search bar white
-.on github click the link and you ready to go.
+*Launch your browser
+*on your search bar white
+*on github click the link and you ready to go.
 ## Known Bugs
 There are no currently known bugs,but I welcome any collaborations
 ## Technologies Used
-HTML for creating website 
-css for styling website
-Javascript
+*HTML for creating website 
+*css for styling website
+*Javascript
 ## Support and contact details
-Email:buneishadrack5@gmail.com,
-Contacts:0794166175.
+*Email:buneishadrack5@gmail.com,
+*Contacts:0794166175.
 ###  Copyright and License
 MIT License Copyright (c) [2020] [Bunei Shadrack] Permission is hereby granted, free of charge, to any person obtaining a copy of this 
 software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation 
@@ -26,10 +26,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, 
 WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 Copyright (c)2020 **Bunei Shadrack**
-Copyright (c) {year} **{List of contributors or company name}**
 
 
 
 
 
-5:15
