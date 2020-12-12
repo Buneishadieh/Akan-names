@@ -1,20 +1,179 @@
-body{
-    padding:0;
-    margin:0;
-    background-image:url("/images/background.jpg")
-}
-.container{
-    width:90%;
-    text-align:center;
+.jumbotron {
+    color: blue;
+    text-align: center;
     margin: auto;
+    background-color: rgb(220, 233, 35);
+    font-size: 5rem;
+
+
 }
-.container p{
-    width:550px;
-    margin-left:20%;
-  
+.container1{
+    background-color:#2d6187;
 }
-.container h2{
-    text-emphasis:yes;
-    text-decoration :underline;
-    color:green;
+@media screen and (min-width: 320px){
+    .jumbotron {
+        color: whitesmoke;
+        text-align: center;
+        margin: auto;
+        background-color: rgb(31, 65, 62);
+        font-size: 2rem;
+    }
+    #title {
+        color: darkblue;
+        margin-left: 2%;
+        text-align: center;
+        padding: 6px;
+    }
+    body {
+        margin: 2%;
+        background-color: rgb(202, 198, 139);
+
+    }
+}
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        color: rgb(235, 235, 247);
+        text-align: center;
+        margin: auto;
+        background-color: #28abb9;
+        font-size: 5rem;
+    }
+    #title {
+        color: darkblue;
+        margin-left: 2%;
+        text-align: center;
+        padding: 6px;
+    }
+
+}
+@media screen and (min-width: 1023.99px) {
+    .jumbotron {
+        color: rgb(37, 53, 27);
+        text-align: center;
+        margin: auto;
+        font-size: 5rem;
+    }
+    #title {
+        color: darkblue;
+        margin-left: 2%;
+        text-align: center;
+        padding: 6px;
+    }
+    #form {
+        color: #2d6187;
+        font-size: 26px;
+        margin-left: 4rem;
+        padding: 2%;
+        font: 2em sans-serif;
+        text-align: center;
+        font-weight: 400;
+    }
+}
+#title {
+    color: darkblue;
+    margin-left: 2%;
+    text-align: center;
+    padding: 6px;
+}
+body {
+    margin: 2%;
+    background-color:#a8dda8;
+}
+.intro {
+    font-size: 21px;
+    line-height: 1rem;
+    padding: 1%;
+}
+#how {
+    color: darkblue;
+    text-align: center;
+}
+
+.description {
+    line-height: 28px;
+    font-size: 21px;
+    padding: 2%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#form {
+    color: #a8dda8;
+    font-size: 26px;
+    margin-left: 4rem;
+    padding: 2%;
+    font: 2em sans-serif;
+    text-align: center;
+    font-weight: 400;
+}
+.input {
+    background-color: darkgrey ;
+}
+.container {
+    background-color: #c3d8e7;
+    padding: 1%;
+    color: white;
+    font-size: 1.5rem;
+    line-height: 18px;
+}
+.footer{
+    text-align: center;
+    color: blue;
+    letter-spacing: 6px;
+    padding-top: 2rem;
+    padding: 2%;
+}
+.text{
+    font-size: 28px;
+}
+#get-name {
+    color: #a8dda8;
+    text-align: center;
+    width: 100%;
+    margin-right: 2rem;
+    padding: 12px 2px;
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 6px;
+    background-color: darkgray;
+    transition-duration: 0.4ms;
+}
+#get-name:hover {
+    background-color: green;
+    color: white;
+}
+#display-name {
+    text-align: center;
+    color: blue;
+    font-size: 26px;
+}
+input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    box-sizing: border-box;
+    border: 1px solid white;
+    border-radius: 6px;
+    background-color:darkgray;
+    color: white;
+
+}
+.myform {
+    box-sizing: border-box;
+    border: 2px solid transparent;
+    background-color: darkgrey;
+    margin: 8px;
+    padding: 12px;
+    border-radius: 6px;
+    color: whitesmoke
+}
+img{
+    box-sizing: border-box;
+    inline-size: 220px;
+    margin-right: 22px;
+    margin-bottom: 22px;
+    padding: 22px;
+}
+#result {
+    color:  darkgreen;
+    padding: 16px;
 }
