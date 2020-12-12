@@ -1,29 +1,91 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>name Generator</title>
-    <link href="css/styles.css" rel="stylesheet" type="text/css" />
-    <script src="script.js"></script>
-  </head>
-  <body>
-    <div class="container">
-    <h2>AKAN NAME GENERATOR.</h2>
-
-    <p>This website  takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. 
-
-      Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which 
-      corresponds to the day in the week they were born. Here are Ghanian day names.</p>
-      <
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
     
-    <form action="scripts.js">
-            <label for="birthday">Birthday:</label>
-            <input type="date" id="birthday" name="birthday">
-            <input type="submit">
-          </form>
-          
-    <script src="script.js"></script>
-  </div>
-  </body>
+    <title>Akan Web App</title>
+</head>
+<body>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="contaainer1">
+            <h1 class="display-2">Akan Naming System</h1>
+            <p class="lead">The web service that gives you an African name</p>
+        </div>
+    </div>
+
+    <div>
+        
+        <h2 id="title"> Welcome to Akan naming Web service</h2>
+        <div class="intro">
+            <p>
+               The Akan naming System is a web application that is based on a Ghananian naming culture. The Ghananian Akan naming works as follows;
+               <p>Children are given their first names as a day name which corresponds to the day of the week they were born.</p>
+            </p>
+        </div>
+    </div>
+    <br><hr>
+     <h2 id="how">How it Works</h2>
+    <div class="description">
+        <p>The application takes your birthday and gender input and tells the day of the week you were born, and then gives you an Akan name corresponding to your day of birth.</p>
+        <p>The system works in three easy steps:</p>
+            <ol>
+                <li>Enter your birthday on the form below</li>
+                <li>Select your gender</li>
+                <li>click on submit button to view the results</li>
+            </ol>
+            
+    </div>
+    <br><hr>
+    <div>
+        <h3 id="form">Check your Akan Name here!</h3>
+    </div>
+    <div class="container">
+        <form class="myform bg-secondary" onsubmit="return getAkanName()">
+            <div class="form-row">
+                <div class="col">
+                    <label for="year-input">Year</label>
+                    <input id="year-input" type="number" name="year-of-birth" placeholder="YYYY" value="" required><br>
+                </div>
+                 <div class="col">
+                    <label for="month-input">Month</label>
+                    <input id="month-input" type="number" name="month-of-birth" placeholder="MM" value="" required>
+                </div>
+                <div class="form-col">
+                    <label for="day-input">Day</label>
+                    <input id="day-input" type="number" name="day-of-birth" placeholder="DD" value="" required>
+                </div>
+            </div>
+               
+            <div class="form-group form-check">
+                <p>Select your gender:</p> 
+                <input id="male-input" type="radio" name="gender" value="male" required>
+                <label for="male-input">Male</label><br>
+                <input id="female-input" type="radio" name="gender" value="female" required>
+                <label for="female-input">Female</label>
+            </div>
+            
+            <button class="btn btn-primary btn-lg" type="submit" name="">Submit</button>
+        </form>
+        <br><hr>
+        <form onsubmit="return clearInput()">
+            <input class="clear" type="submit" value="Clear input">
+        </form>
+        <div>
+            <h4 id = "display-name"><strong>Your Akan Name is:</strong></h4>
+            <p id="result"></p>
+        </div>
+       
+    </div>
+        
+        <div class="footer">
+            <footer>
+                <p>Developed by Bunei Shadrack@2020. All Rights Reserved</p>
+            </footer>
+        </div>
+    </div>
+    <script src="js/scripts.js"></script>
+</body>
 </html>
